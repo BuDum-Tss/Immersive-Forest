@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.bdtss.immersive_forest.block.ModBlocks;
 import org.bdtss.immersive_forest.item.ModItems;
+import org.bdtss.immersive_forest.item.ModItemsGroups;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
