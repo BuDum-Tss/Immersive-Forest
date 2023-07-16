@@ -2,6 +2,7 @@ package org.bdtss.immersive_forest;
 
 import net.fabricmc.api.ModInitializer;
 
+import org.bdtss.immersive_forest.block.ModBlocks;
 import org.bdtss.immersive_forest.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,6 +17,7 @@ public class ImmersiveForestMod implements ModInitializer {
     // This code runs as soon as Minecraft is in a mod-load-ready state.
     // However, some things (like resources) may still be uninitialized.
     // Proceed with mild caution.
+    ModBlocks.register();
     ModItems.register();
     LOGGER.info("Initialization finished: " + MODID);
   }
