@@ -1,31 +1,31 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "immersive_forest",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Immersive Gear",
+	"description": "This mod adds new craft of the armor",
 	"authors": [
-		"Me!"
+		"Croakky"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/immersive_forest/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"org.bdtss.immersive_forest.ImmersiveForestMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"org.bdtss.immersive_forest.ImmersiveForestModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"immersive_forest.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "immersive_forest.client.mixins.json",
 			"environment": "client"
 		}
 	],

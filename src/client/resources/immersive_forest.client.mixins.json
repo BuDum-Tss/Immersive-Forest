@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.example.mixin",
+	"package": "org.bdtss.immersive_forest.mixin.client",
 	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"ExampleMixin"
+	"client": [
+		"ImmersiveForestClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
